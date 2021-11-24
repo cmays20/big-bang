@@ -4,6 +4,8 @@
 
 hostname: bigbang.dev
 
+openshift: true
+
 flux:
   interval: 1m
   rollback:

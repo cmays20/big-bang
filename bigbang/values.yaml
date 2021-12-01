@@ -192,7 +192,9 @@ monitoring:
           requests:
             cpu: 100m
             memory: 200Mi
-          limits: {}
+          limits: 
+            cpu: 100m
+            memory: 200Mi
     prometheusOperator:
       resources:
         requests:
